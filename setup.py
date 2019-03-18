@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(name='Possum',
-    version='1.1.3',
+    version='1.1.4',
     description='Possum - Post Summarization',
     packages=['Possum'],
     install_requires=['sumy >= 0.7.0',
