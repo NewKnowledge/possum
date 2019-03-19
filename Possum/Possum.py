@@ -50,6 +50,8 @@ class Possum:
         if (language):
             logger.info("Setting language to " + language)
             LANGUAGE = language
+        else:
+            LANGUAGE = "english"
         # Set the location of the nltk data directory for tokenizers, etc.
         if nltk_directory:
             nltk.data.path.append(nltk_directory)
